@@ -53,3 +53,47 @@ section {
 section p {
     padding-top: 30px;
 }
+
+/* for mobile */
+@media(max-width: 400px) {
+    figure {
+        margin-top: -15px;
+    }
+    figure img {
+        width: 100px;
+    }
+}
+
+.home {
+      margin-right: 10px;
+}
+.home div {
+    padding: 70px;
+    padding-left: 40px;
+}
+/* image */
+.home img {
+    width: 180px;
+    margin-left: -80px;
+    margin-top: 10px;
+}
+.home h2 {
+    font-size: 12px;
+}
+.home input {
+    width: 100px;
+    height: 20px;
+    margin-top: 7px;
+}
+/* section */
+section {
+    padding-bottom: 10px;
+    padding-top: 30px;
+}
+section h3 {
+        font-size: medium;
+}
+section p {
+    font-size: smaller;
+    padding-top: 10px;
+}
