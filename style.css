@@ -15,7 +15,10 @@ nav {
     display: flex;
     justify-content: space-evenly;
     position: sticky;
+    padding-top: 15px;
     top: 0;
+    background-color: grey;
+    padding-bottom: 20px;
 }
 nav a {
     color: black;
@@ -96,4 +99,8 @@ section h3 {
 section p {
     font-size: smaller;
     padding-top: 10px;
+}
+.Books img {
+    width: 500px;
+    border: 2px solid red;
 }
